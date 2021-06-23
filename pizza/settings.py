@@ -19,8 +19,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 #DEBUG = False
 
-ALLOWED_HOSTS = ['cs50pizza.azurewebsites.net',
-                 'localhost', 'cs50pizza.herokuapp.com', 'reckitt']
+ALLOWED_HOSTS = ['sahilb-pizzahut.herokuapp.com']
 
 # Application definition
 INSTALLED_APPS = [
